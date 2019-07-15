@@ -5,6 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8589a0+2,53e89d+50,7843ba+59,f18e99+100 */
+  background: #8589a0; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #8589a0 2%,
+    #53e89d 50%,
+    #7843ba 59%,
+    #f18e99 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #8589a0 2%,
+    #53e89d 50%,
+    #7843ba 59%,
+    #f18e99 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #8589a0 2%,
+    #53e89d 50%,
+    #7843ba 59%,
+    #f18e99 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8589a0', endColorstr='#f18e99',GradientType=0 ); /* IE6-9 */
 }
 
 code {
