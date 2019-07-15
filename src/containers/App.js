@@ -60,15 +60,18 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchInput.toLowerCase());
     });
 
-    return isPending ? (
-      <h1>Loading...</h1>
-    ) : (
+    return (
       <div className="tc">
         <Header />
         <SearchBar searchChange={onSearchChange} />
         <Scroll>
           <ErrorBoundry>
-            <CardList robots={filteredRobots} />
+            {isPending ? 
+              <h1>Loading...</h1> 
+              :
+              <CardList robots={filteredRobots} />
+              }
+            
           </ErrorBoundry>
         </Scroll>
       </div>
